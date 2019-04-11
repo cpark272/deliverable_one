@@ -1,0 +1,22 @@
+package JavaOne;
+import java.util.Scanner;
+
+public class DataOne {
+	
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		
+		//List of variables
+		String eventType = "A";
+		int partySize;
+		String mealSuggestion = "B";
+		String prepSuggestion;
+		String result;
+		
+		if (eventType.equals(mealSuggestion)) {
+			System.out.println("Works");
+		}
+		
+	}
+
+}

@@ -1,0 +1,26 @@
+package JavaOne;
+import java.util.Scanner;
+
+public class DataOne {
+	
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		
+		//List of variables
+		String eventType;
+		int partySize;
+		String mealSuggestion;
+		String prepSuggestion;
+		String result;
+		
+		//Question for user
+		System.out.println("Please enter the event type (casual, semi-formal, formal):");
+		eventType = scan.next();
+		
+		if (eventType.equals(casual)) {
+			System.out.println("Works");
+		}
+		
+	}
+
+}
